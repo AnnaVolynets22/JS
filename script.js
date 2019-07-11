@@ -5,8 +5,8 @@ class GameMachine{
     this.number = number;
   }
   
-  getMoney(){
-    return number;
+  get money(){
+    return this.number;
   }
   
   takeMoney(number){
